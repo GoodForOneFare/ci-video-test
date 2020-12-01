@@ -54,7 +54,7 @@ ffmpeg.stderr.on('data', (data) => {
       '--disable-background-timer-throttling',
       '--disable-backgrounding-occluded-windows',
       '--disable-renderer-backgrounding',
-      '--display=99',
+      '--display=:99',
     ],
   });
 
